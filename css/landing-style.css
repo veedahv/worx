@@ -246,12 +246,6 @@ section .pink-card-2 .card-black {
 
     .landing-carousel-images-div {
         display: none;
-        /* background: transparent !important;
-        width: 120px;
-        height: 200px;
-        position: absolute;
-        bottom: 10px;
-        right: 10px; */
     }
 
     .landing-bg-one .landing-carousel-images-div {
@@ -274,6 +268,13 @@ section .pink-card-2 .card-black {
     .grid {
         grid-template-columns: 1fr;
     }
+    .image-flow {
+        padding: 0px !important;
+        flex-direction: column;
+    }
+    /* .image-flow div {
+        padding: 0px !important;
+    } */
 }
 
 @media (min-width: 1200px) {

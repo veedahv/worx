@@ -16,8 +16,8 @@ footer p, .quick-links ul li {
     font-size: 15px;
 }
 
-.quick-links ul li {
-    margin: 17px 0px;
+.quick-links ul li a {
+    color: var(--white);
 }
 
 .opening-hours h4 {
@@ -104,14 +104,14 @@ footer p {
         margin-right: auto;
         margin-left: auto;
     }
-    .image-flow .d-img {
+    /* .image-flow .d-img {
         margin-left: 40px !important;
         width: 250px !important;
-    }
+    } */
 }
 
-@media screen and (max-width:320px) {
+/* @media screen and (max-width:320px) {
     .image-flow .d-img {
         margin-left: 20px !important;
     }
-}
+} */
