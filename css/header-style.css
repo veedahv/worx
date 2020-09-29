@@ -1,9 +1,10 @@
 :root {
     --green: #33CC99;
     --white: #ffffff;
+    --black: #000000;
     --purple-bg: #320D3E;
-    --pink: #D902EE;
-    --font-body: 'Roboto', sans-serif;
+    --pink: #EC268F;
+    --grey: #E6E7E8;
     --font-main: 'Poppins', sans-serif;
 }
 
@@ -11,42 +12,46 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    word-spacing: 1.5 !important;
-    line-height: 1.5 !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* utility classes */
 
-body {
-    background-color: grey;
-    font-family: var(--font-body) !important;
+.container {
+  max-width: 1200px !important;
 }
 
-.font-head,
-a {
-    font-family: var(--font-main) !important;
+.grid {
+  display: grid;
 }
 
 header {
-    background-color: var(--white);
+    background-color: var(--black);
     border-bottom: 5px solid var(--pink);
     width: 100%;
-    padding: 5px 40px;
+    /* padding: 5px 40px; */
     z-index: 2;
 }
 
 header a {
-    color: var(--pink) !important;
+    color: var(--white) !important;
+}
+
+header .navbar .active a {
+  color: var(--pink) !important;
 }
 
 .logo {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+}
+
+.navbar ul li {
+  letter-spacing: 1px;
 }
 
 /* hamburger */
 
-nav button {
+.navbar .navbar-toggler {
     outline: none !important;
     border: none !important;
 }
@@ -58,7 +63,7 @@ nav button {
 .hamburger .line{
     width: 35px;
     height: 3px;
-    background-color: var(--pink);
+    background-color: var(--white);
     display: block;
     margin-bottom: 8px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -69,8 +74,6 @@ nav button {
   .hamburger:hover{
     cursor: pointer;
   }
-  
-  /* ONE */
   
   #hamburger-1.is-active .line:nth-child(2){
     opacity: 0;
@@ -90,8 +93,4 @@ nav button {
     transform: translateY(-13px) rotate(-45deg);
   }
 
-  /* footer */
-
-  footer {
-      background-color: var(--white);
-  }
+ 

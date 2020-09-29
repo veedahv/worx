@@ -6,115 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/header-style.css">
-    <link rel="stylesheet" href="./css/landing-style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/footer-style.css">
+    <link rel="stylesheet" href="css/landing-style.css">
+    <link rel="shortcut icon" href="images/Worx logo.png" type="image/x-icon">
+    <title>WORX</title>
 </head>
 
 <body>
     <!-- header -->
     <header class="position-absolute">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="images/worx logo purple.png" class="logo" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <div class="hamburger" id="hamburger-1" onclick="this.classList.toggle('is-active')">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                    </div>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./landing.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./services.html">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./event.html">EVENT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./gallery.html">GALLERY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">CONTACT US</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/worx logo white.png" class="logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <div class="hamburger" id="hamburger-1" onclick="this.classList.toggle('is-active')">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link px-3" href="./landing.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="./about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="./team.html">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="./blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="./gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="./contact.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- landing page -->
         <section class="landing-section">
-            <div class="container">
-                <div id="carouselExampleControls" class="carousel slide landing-carousel" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
+            <div id="carouselExampleControls" class="carousel slide landing-carousel" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active landing-bg-one">
+                        <div class="container">
                             <div class="position-relative carousel-contain">
                                 <div class="card mb-3 p-2 position-relative">
-                                    <div class="row no-gutters">
-                                        <div class="col-md-6 landing-carousel-images-div">
-                                            <img src="./images/landingImg1.png" class="card-img landing-carousel-images" alt="carousel-image">
-                                        </div>
+                                    <div class="row no-gutters align-items-center">
                                         <div class="col-md-6">
                                             <div class="card-body">
-                                                <h2 class="card-title font-head mb-2">
-                                                    <div id="type_text_one"></div>
-                                                    <!-- WE ARE THE WOMEN OF ROOTHUB XTRAORDINARY -->
-                                                </h2>
-                                                <p class="card-text mb-4">
-                                                    We educate and challenge women to embrace
-                                                    Technology and Digital skills no matter
-                                                    what sector or industry they find themselves.
+                                                <h1 class="card-title landing-title second-bar-title">
+                                                    Meet The Women Of Roothub Xtraordinary
+                                                </h1>
+                                                <p class="card-text mb-4 second-bar">
+                                                    We are a community of Women
+                                                    from different works of life blazing with
+                                                    trail with the use of technology and
+                                                    digital skills.
                                                 </p>
-                                                <a href="#" class="landing-btn font-head">LEARN MORE</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="position-relative">
-                                <div class="card mb-3 p-2 position-relative">
-                                    <div class="row no-gutters">
-                                        <div class="col-md-6">
-                                            <div class="card-body">
-                                                <h2 class="card-title font-head mb-2">
-                                                    <div id="type_text_two"></div>
-                                                    <!-- WE ARE SOCIAL, SMART AND STYLISH -->
-                                                </h2>
-                                                <p class="card-text mb-4">
-                                                    We recognize, appreciate, award and honor outstanding women in
-                                                    different fields of professionalism.
-                                                </p>
-                                                <a href="#" class="landing-btn font-head">LEARN MORE</a>
+                                                <a href="#" class="landing-btn btn">
+                                                    Learn More
+                                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-md-6 landing-carousel-images-div">
-                                            <img src="./images/landingImg2.png" class="card-img landing-carousel-images" alt="carousel-image">
+                                            <img src="images/landing pics.png" class="card-img landing-carousel-images"
+                                                alt="carousel-image">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-control">
+                    <div class="carousel-item landing-bg-two">
+                        <div class="container">
+                            <div class="position-relative">
+                                <div class="card mb-3 p-2 position-relative">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-md-6 landing-carousel-images-div">
+                                            <img src="images/landing pics2.png" class="card-img landing-carousel-images"
+                                                alt="carousel-image">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card-body text-right">
+                                                <h1 class="card-title landing-title ml-auto second-bar-title">
+                                                    Get Skilled For a Change and live Xtraordinary.
+                                                </h1>
+                                                <p class="card-text mb-4 ml-auto second-bar">
+                                                    We do not have magical powers like
+                                                    superheroines do, but our creative
+                                                    abilities and collaborative spirits enable
+                                                    us to join forces and create impacts in
+                                                    our fields of endeavour.
+                                                </p>
+                                                <a href="#" class="landing-btn btn">Join Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-control position-absolute">
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true">
                             <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -128,55 +138,252 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+            </div>
+        </section>
+        <section class="my-5">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-sm-4">
+                        <div class="card pink-card mr-2 " onclick="colorSwitch()">
+                            <div class="d-flex align-items-center">
+                                <div class="">
+                                    <img src="images/community growth icon white.svg" class="card-img card-white"
+                                        alt="">
+                                    <img src="images/community growth icon black.svg" class="card-img card-black"
+                                        alt="">
+                                </div>
+                                <div class="">
+                                    <div class="card-body">
+                                        <h2 class="card-title subtitle">
+                                            Self Development
+                                        </h2>
+                                        <p class="card-text mb-4">
+                                            The women of roothub seeks to remind
+                                            women that she can be more because
+                                            that's what she's built for.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card pink-card mx-1">
+                            <div class="d-flex align-items-center">
+                                <div class="">
+                                    <img src="images/navigation icon white.svg" class="card-img card-white" alt="">
+                                    <img src="images/navigation icon black.svg" class="card-img card-black" alt="">
+                                </div>
+                                <div class="">
+                                    <div class="card-body">
+                                        <h2 class="card-title subtitle">
+                                            Impact &amp; Organization
+                                        </h2>
+                                        <p class="card-text mb-4">
+                                            The indices for meaningful social impact
+                                            and organizational success are navigated
+                                            in our community.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card pink-card ml-2">
+                            <div class="d-flex align-items-center">
+                                <div class="">
+                                    <img src="images/balance icon white.svg" class="card-img card-white" alt="">
+                                    <img src="images/balance icon black.svg" class="card-img card-black" alt="">
+                                </div>
+                                <div class="">
+                                    <div class="card-body">
+                                        <h2 class="card-title subtitle">
+                                            Balance for Better
+                                        </h2>
+                                        <p class="card-text mb-4">
+                                            We are aimed at fostering unity
+                                            amongst women and bridging the gap
+                                            between women and technology.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="grid mt-3">
+                    <div class="item-one px-4 py-5">
+                        <div class="card-body">
+                            <h2 class="card-title subtitle">
+                                Our zeal is to see you become Xtraordinary
+                            </h2>
+                            <p class="card-text mb-4">
+                                We're designed to oversee empowerment
+                                activites and foster <b>socio-economic growth</b>
+                                and <b>development</b> of our women we
+                                can achieve this by:
+                            </p>
+                            <ul class="ml-4">
+                                <li>Trainings - digital literacy and skills acquisation</li>
+                                <li>Empowerment sessions</li>
+                                <li>Frequent Meetups</li>
+                                <li>Mentor-Mentee/Coaching program</li>
+                                <li>Annual Conferences</li>
+                            </ul>
+                            <!-- <div>
+                                <div class="progress">
+                                    <p>Program Effectiveness</p>
+                                  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="progress">
+                                    <p>Program Effectiveness</p>
+                                    <div class="progress-bar progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                  </div>                                
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="item-two">
+                        <div class="item-two-div text-center">
+                            <div class="card-body pink-card-2">
+                                <img src="images/community growth icon white.svg"
+                                    class="card-img card-white grid-item-img" alt="">
+                                <img src="images/community growth icon black.svg"
+                                    class="card-img card-black grid-item-img" alt="">
+                                <h2 class="card-title subtitle">
+                                    Foster Growth
+                                </h2>
+                                <p class="card-text">
+                                    The most important tool for
+                                    empowering women is undertaking
+                                    actions of integrating more women
+                                    in the fields of technology and
+                                    communication.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-two-div text-center">
+                            <div class="card-body pink-card-2">
+                                <img src="images/access information white.svg"
+                                    class="card-img card-white grid-item-img " alt="">
+                                <img src="images/access information black.svg" class="card-img card-black grid-item-img"
+                                    alt="">
+                                <h2 class="card-title subtitle">
+                                    Access to Educative Information
+                                </h2>
+                                <p class="card-text">
+                                    WORX are built to create opportunities
+                                    to give women Access to education so
+                                    much so that female power will be
+                                    raised ans new professionals will be
+                                    created around the world.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item-two-div text-center">
+                            <div class="card-body pink-card-2">
+                                <img src="images/head x light icon white.svg" class="card-img card-white grid-item-img"
+                                    alt="">
+                                <img src="images/head x light icon black.svg" class="card-img card-black grid-item-img"
+                                    alt="">
+                                <h2 class="card-title subtitle">
+                                    Stay Xtraordinary
+                                </h2>
+                                <p class="card-text">
+                                    Become unparalleled socially and
+                                    financially career and family wise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-tre">
+                        <img src="images/SYLVIA.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="pt-5">
+                    <div class="partners mt-4 p-5">
+                        <h4 class="card-title mb-3">Partners</h4>
+                        <div class="image-flow d-flex justify-content-between px-5">
+                            <div class="px-3 d-flex align-items-center">
+                                <img src="images/roothub logo1.png" class="">
+                            </div>
+                            <div class="px-3 d-flex align-items-center">
+                                <img src="images/flox logo.png" >
+                            </div>
+                            <div class="px-3 d-flex align-items-center">
+                                <img src="images/trax logo icon.svg" class="">
+                            </div>
+                            <div class="px-3 d-flex align-items-center">
+                                <img src="images/onukink logo.svg">
+                            </div>
+                            <div class="px-3 d-flex align-items-center">
+                                <img src="images/hostbeak logo.png" class="d-img">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="container">
-            <div>
-                <div>
-                    <img src="images/worx logo purple.png" class="logo" alt="logo">
-                </div>
-                <div>
-                    <ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./landing.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./about.html">ABOUT US</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./services.html">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./blog.html">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./event.html">EVENT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./gallery.html">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">CONTACT US</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h1 class="footer-title">Contact Us</h1>
-                    <div>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <p></p>
+    <footer id="footer" class="mt-4">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-5 block">
+                    <div class="worx">
+                        <img class="img-fluid mb-2 logo" src="images/worx logo white.png" alt="Card image cap">
+                        <div class="">
+
+                            <p class="card-text">Women of the Roothub Xtraordinary (WORX) is a community of proactive
+                                females from different fields of professionalism, demonstrating the true essence of
+                                womanhood, working together to change the female narrative towards technology and foster
+                                a gender-balanced, value-added society</p>
+                            <button href="#" class="footer-btn">About Us</button>
+                            <div class="icons my-3">
+                                <i class="fa fa-facebook px-2 py-2"></i>
+                                <i class="fa fa-linkedin px-2 py-2"></i>
+                                <i class="fa fa-instagram px-2 py-2"></i>
+                                <i class="fa fa-twitter px-2 py-2"></i>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p></p>
+                </div>
+                <div class="col-md-3 pt-5">
+                    <div class="quick-links mt-4 pl-4">
+                        <h4 class="card-title">Quick Links</h4>
+                        <ul class="pl-4">
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Services</li>
+                            <li>Blog</li>
+                            <li>Event</li>
+                            <li>Contact Us</li>
+                        </ul>
                     </div>
-                    <h2 class="footer-subtitle">Open Hours</h2>
-                    <div>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <p></p>
+                </div>
+                <div class="col-md-4 pt-5 block">
+                    <div class="official-info mb-4 mt-4">
+                        <h4 class="card-title pb-2">Official-info:</h4>
+                        <div class="location d-flex mb-4">
+                            <i class="fa fa-map-marker mr-2"></i>
+                            <p class="card-text">AKEES PLAZA, IBB AVE. Uyo, Akwa Ibom State, Nigeria.</p>
+                        </div>
+                        <div class="location d-flex">
+                            <i class="fa fa-phone mr-2"></i>
+                            <p>07039447374</p>
+                        </div>
+                    </div>
+                    <div class="opening-hours">
+                        <h4 class="card-title">opening-hours</h4>
+                        <p class="card-text">Mon - Fri: 9am - 5pm</p>
+                        <p class="card-text">Sunday: CLOSED</p>
                     </div>
                 </div>
             </div>

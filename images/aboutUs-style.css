@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con-we-do{
+    padding: 50px 40px 0px 40px !important;
+}
+.con-about{
+    padding: 50px 0px 0px 40px !important
+}
+.our-work h5{
+    font-size: 50px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+.our-work p{
+    font-size: 17.5px;
+    line-height: 5vh !important;
+}
+.about-img{
+    height: 200px !important;
+    width: 200px !important;
+}
+.about-text{
+    width: 96% !important;
+}
+.about-text p{
+    font-size: 14.5px;
+}
+#circlebar{
+    text-align: center;
+}
+#circlebar .round{
+    min-height: 255px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+#circlebar .round strong{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    font-weight: 100;
+    font-size: 40px;
+    color: #000000;
+    transform: translate(-50%,-50%);
+}
+#circlebar span{
+    display: block;
+    font-size: 17px;
+    margin-top: 10px 0 0;
+}
+.prv2,.nxt2{
+    background: #000;
+    height: 30px;
+    width: 50px !important;
+    top: 100% !important;
+    right: 100px !important;
+    left: unset !important;
+}
+.prv2{
+    right: 150px !important;
+}
+.team-header{
+    background-image: url(..//images/meet\ our\ team.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.team-header h5{
+    font-size: 40px;
+}
+.our-team p{
+    font-size: 20px;
+}
+.team-carousel .card{
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+.team-carousel h5, .team-carousel p{
+    position: relative;
+}
+/* animation-begins */
+.team-carousel h5::before{
+    position: absolute;
+    transform-origin: left;
+    content: '';
+    top: 0;
+    left: 30px;
+    background: #EC268F;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    animation: text-in 1.5s ease-in-out 1;
+}
+.team-carousel p:before{
+    position: absolute;
+    transform-origin: right;
+    content: '';
+    top: 0;
+    right: 30px;
+    background: #ffeb3b;
+    width: 100% !important;
+    height: 100%;
+    animation: text-in 1.5s ease-in-out 1;
+    transform: scaleX(0);
+}
+@keyframes text-in{
+    0%{
+        transform: scaleX(0);
+    }
+    50%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0);
+    }
+}
+/* animation ends  */
+.about-us{
+    /* border-bottom: 3px solid #000 !important; */
+}
+section .our-community{
+    min-height: 100vh;
+}
+.our-goals .card{
+    background: #EC268F;
+    color: #fff;
+    border-radius: 0px !important;
+}
+@media screen and (max-width:1024px){
+    .our-work{
+        padding: 0px 5px 0px 5px !important;
+    }
+    .our-work h5{
+        padding: 20px 0px 0px 0px !important;
+        width: 100%;
+    }
+    .our-work p{
+        font-size: 16px !important;
+        line-height:  unset !important;
+    }
+    .team-carousel p{
+        font-size: 15px !important;
+        padding: 0px 10px !important;
+    }
+    .team-carousel h5{
+        padding: 0px 10px !important;
+    }
+    .our-team h5{
+        font-size: 25px !important;
+        padding: 0px !important;
+        /* margin: 0px !important; */
+    }
+    .our-team p{
+        padding: 0px !important;
+        margin: 0px !important;
+        font-size: 16px !important;
+    }
+    .about-ladies{
+        height: 500px !important;
+    }
+    .about-us{
+        margin-bottom: 100px !important;
+    }
+    .about-us-2{
+        margin: 50px 0px !important;
+    }
+    .about-us-2 p{
+        line-height: unset !important;
+        font-size: 14.5px !important;
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .hr-img{
+        height: 400px !important;
+    }
+}
+@media screen and (max-width:768px){
+    .about-us{
+        margin-bottom: 0px !important;
+    }
+    .con-about{
+        padding: 0px !important;
+    }
+    .con-about h5{
+        font-size: 40px !important;
+    }
+    .con-we-do{
+        padding-top: 0px !important;
+    }
+    .about-us-2{
+        margin-top: 0px !important;
+    }
+    .about-us-2 p{
+        padding: 0px 0px 0px 20px !important;
+    }
+    .about-us-2 p span{
+        display: none !important;
+    }
+    .hr-img{
+        height: 350px !important;
+        width: 250px !important;
+        margin-top: 30px !important;
+    }
+    .goaler{
+        height: 240px !important;
+    }
+    .goaler p{
+        line-height: unset !important;
+    }
+    .miss{
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+@media screen and (max-width: 425px){
+    .about-us-2{
+        margin-top: 2000px !important;
+    }
+    .about-us-2 p{
+        padding: 50px 0px 0px 0px !important;
+        width: 100% !important;
+        text-align: justify;
+    }
+    .goals{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .goaler{
+        height: 100% !important;
+    }
+    .caro{
+        margin-bottom: 30px !important;
+    }
+    .hr-img{
+        height: 100% !important;
+        width: 100% !important;
+        /* margin-top: 30px !important; */
+        /* margin-bottom: 50px !important; */
+    }
+}
+@media screen and (max-width:375px){
+    .prv2,.nxt2{
+        right: 6px !important;
+    }
+    .prv2{
+        right: 55px !important;
+    }
+    .team-carousel h5:before{
+        left: 0 !important;
+    }
+    .team-carousel p:before{
+        background: none;
+    }
+    .our-p p, .our-p h5{
+        padding: 0px !important;
+        margin: 0px !important;
+        width: 90% !important;
+        font-size: 15px !important;
+    }
+    
+    .our-p h5{
+        font-size: 20px !important;
+        padding-bottom: 20px !important;
+        width: 100% !important;
+    }
+}
