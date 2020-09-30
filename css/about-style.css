@@ -8,246 +8,90 @@
     --font-main: 'Poppins', sans-serif;
 }
 
-.our-work h5{
-    font-size: 50px;
-    margin-bottom: 30px;
-    width: 60%;
+
+ .card {
+    border: none;
+    border-radius: 0px;
 }
-.our-work p{
-    font-size: 17.5px;
-    line-height: 5vh !important;
+
+section .pink-card-2 .card-white {
+    display: none;
 }
-.about-img{
-    height: 200px !important;
-    width: 200px !important;
-}
-.about-text{
-    width: 96% !important;
-}
-.about-text p{
-    font-size: 14.5px;
-}
-#circlebar{
-    text-align: center;
-}
-#circlebar .round{
-    min-height: 255px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    position: relative;
-}
-#circlebar .round strong{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    font-weight: 100;
-    font-size: 40px;
-    color: #000000;
-    transform: translate(-50%,-50%);
-}
-#circlebar span{
+
+section .pink-card-2 .card-black {
     display: block;
-    font-size: 17px;
-    margin-top: 10px 0 0;
 }
-.prv2,.nxt2{
-    background: #000;
-    height: 30px;
-    width: 50px !important;
-    top: 100% !important;
-    right: 100px !important;
-    left: unset !important;
+
+.pink-card-2:hover {
+    background-color: var(--pink);
+    color: var(--white);
 }
-.prv2{
-    right: 150px !important;
+
+.pink-card-2:hover .card-white {
+    display: block;
 }
-.team-header{
-    background-image: url(..//images/meet\ our\ team.jpg) !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+
+.pink-card-2:hover .card-black {
+    display: none;
 }
-.team-header h5{
-    font-size: 40px;
+
+.pink-card.active-card {
+    background-color: var(--pink);
+    color: var(--white);
 }
-.our-team p{
+
+.subtitle {
     font-size: 20px;
 }
-.team-carousel .card{
-    box-shadow: 0 0 5px rgba(0,0,0,.5);
+
+.grid-item-img {
+    width: 60px;
+    margin: auto;
+    /* fill: var(--black); */
 }
-.team-carousel h5, .team-carousel p{
-    position: relative;
+
+.grid {
+    grid-template-columns: 21fr 20fr 21fr;
 }
-/* animation-begins */
-.team-carousel h5::before{
-    position: absolute;
-    transform-origin: left;
-    content: '';
-    top: 0;
-    left: 30px;
-    background: #EC268F;
+
+.item-one {
+    background-color: var(--grey);
+}
+
+.item-one h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.item-one ul {
+    list-style: none !important; /* Remove default bullets */
+}
+  
+.item-one ul li::before {
+    content: "\2022"; 
+    color: var(--pink); 
+    font-weight: 900;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+.item-two h2 {
+    font-size: 18px;
+}
+
+.item-two p {
+    font-size: 16px;
+}
+
+.item-tre img {
     width: 100%;
     height: 100%;
-    transform: scaleX(0);
-    animation: text-in 1.5s ease-in-out 1;
 }
-.team-carousel p:before{
-    position: absolute;
-    transform-origin: right;
-    content: '';
-    top: 0;
-    right: 30px;
-    background: #ffeb3b;
-    width: 100% !important;
-    height: 100%;
-    animation: text-in 1.5s ease-in-out 1;
-    transform: scaleX(0);
-}
-@keyframes text-in{
-    0%{
-        transform: scaleX(0);
-    }
-    50%{
-        transform: scaleX(1);
-    }
-    100%{
-        transform: scaleX(0);
-    }
-}
-section .our-community{
-    min-height: 100vh;
-}
-.our-goals .card{
-    background: #EC268F;
-    color: #fff;
-    border-radius: 0px !important;
-}
-@media screen and (max-width:1024px){
-    .our-work{
-        padding: 0px 5px 0px 5px !important;
-    }
-    .our-work h5{
-        padding: 20px 0px 0px 0px !important;
-        width: 100%;
-    }
-    .our-work p{
-        font-size: 16px !important;
-        line-height:  unset !important;
-    }
-    .team-carousel p{
-        font-size: 15px !important;
-        padding: 0px 10px !important;
-    }
-    .team-carousel h5{
-        padding: 0px 10px !important;
-    }
-    .our-team h5{
-        font-size: 25px !important;
-        padding: 0px !important;
-    }
-    .our-team p{
-        padding: 0px !important;
-        margin: 0px !important;
-        font-size: 16px !important;
-    }
-    .about-ladies{
-        height: 500px !important;
-    }
-    .about-us{
-        margin-bottom: 100px !important;
-    }
-    .about-us-2{
-        margin: 50px 0px !important;
-    }
-    .about-us-2 p{
-        line-height: unset !important;
-        font-size: 14.5px !important;
-        width: 100% !important;
-        padding: 0px !important;
-    }
-}
-@media screen and (max-width:768px){
-    .about-us{
-        margin-bottom: 0px !important;
-    }
-    .con-about{
-        padding: 0px !important;
-    }
-    .con-about h5{
-        font-size: 40px !important;
-    }
-    .con-we-do{
-        padding-top: 0px !important;
-    }
-    .about-us-2{
-        margin-top: 0px !important;
-    }
-    .about-us-2 p span{
-        display: none !important;
-    }
-    .hr-img{
-        width: 250px !important;
-    }
-    .goaler{
-        height: 240px !important;
-    }
-    .goaler p{
-        line-height: unset !important;
-    }
-    .miss{
-        width: 50px !important;
-        height: 50px !important;
-    }
-}
-@media screen and (max-width: 425px){
-    .about-us-2 p{
-        width: 100% !important;
-    }
-    .goals{
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-    .goaler{
-        height: 100% !important;
-    }
-    .caro{
-        margin-bottom: 30px !important;
-    }
-    .hr-img{
-        height: 100% !important;
-        width: 100% !important;
-    }
-}
-@media screen and (max-width:375px){
-    .prv2,.nxt2{
-        right: 6px !important;
-    }
-    .prv2{
-        right: 55px !important;
-    }
-    .team-carousel h5:before{
-        left: 0 !important;
-    }
-    .team-carousel p:before{
-        background: none;
-    }
-    .our-p p, .our-p h5{
-        padding: 0px !important;
-        margin: 0px !important;
-        width: 90% !important;
-        font-size: 15px !important;
-    }
-    
-    .our-p h5{
-        font-size: 20px !important;
-        padding-bottom: 20px !important;
-        width: 100% !important;
+
+@media (max-width: 575.98px) {
+
+    .grid {
+        grid-template-columns: 1fr;
     }
 }

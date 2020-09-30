@@ -65,9 +65,6 @@ footer p {
 }
 
 @media screen and (max-width:768px) {
-    footer {
-        padding-left: 50px;
-    }
     h4 {
         font-size: 18px !important;
     }
@@ -79,12 +76,6 @@ footer p {
     }
     .worx, .official-info {
         width: 300px !important;
-    }
-}
-
-@media screen and (max-width:766px) {
-    footer {
-        padding-left: unset !important;
     }
 }
 
@@ -104,14 +95,5 @@ footer p {
         margin-right: auto;
         margin-left: auto;
     }
-    /* .image-flow .d-img {
-        margin-left: 40px !important;
-        width: 250px !important;
-    } */
 }
 
-/* @media screen and (max-width:320px) {
-    .image-flow .d-img {
-        margin-left: 20px !important;
-    }
-} */
