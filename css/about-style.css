@@ -8,12 +8,6 @@
     --font-main: 'Poppins', sans-serif;
 }
 
-.con-we-do{
-    padding: 50px 40px 0px 40px !important;
-}
-.con-about{
-    padding: 50px 0px 0px 40px !important
-}
 .our-work h5{
     font-size: 50px;
     margin-bottom: 30px;
@@ -127,10 +121,6 @@
         transform: scaleX(0);
     }
 }
-/* animation ends  */
-.about-us{
-    /* border-bottom: 3px solid #000 !important; */
-}
 section .our-community{
     min-height: 100vh;
 }
@@ -161,7 +151,6 @@ section .our-community{
     .our-team h5{
         font-size: 25px !important;
         padding: 0px !important;
-        /* margin: 0px !important; */
     }
     .our-team p{
         padding: 0px !important;
@@ -183,9 +172,6 @@ section .our-community{
         width: 100% !important;
         padding: 0px !important;
     }
-    .hr-img{
-        height: 400px !important;
-    }
 }
 @media screen and (max-width:768px){
     .about-us{
@@ -203,16 +189,11 @@ section .our-community{
     .about-us-2{
         margin-top: 0px !important;
     }
-    .about-us-2 p{
-        padding: 0px 0px 0px 20px !important;
-    }
     .about-us-2 p span{
         display: none !important;
     }
     .hr-img{
-        height: 350px !important;
         width: 250px !important;
-        margin-top: 30px !important;
     }
     .goaler{
         height: 240px !important;
@@ -226,13 +207,8 @@ section .our-community{
     }
 }
 @media screen and (max-width: 425px){
-    .about-us-2{
-        margin-top: 2000px !important;
-    }
     .about-us-2 p{
-        padding: 50px 0px 0px 0px !important;
         width: 100% !important;
-        text-align: justify;
     }
     .goals{
         margin-left: auto !important;
@@ -247,8 +223,6 @@ section .our-community{
     .hr-img{
         height: 100% !important;
         width: 100% !important;
-        /* margin-top: 30px !important; */
-        /* margin-bottom: 50px !important; */
     }
 }
 @media screen and (max-width:375px){
