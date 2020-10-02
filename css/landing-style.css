@@ -226,7 +226,7 @@ section .pink-card .card-black {
     color: brown;
 }
 
-.aboutme__card button{
+.aboutme__card .aboubtn{
     background-color: black;
     color:white;
     padding: 7px;
@@ -284,9 +284,7 @@ section .pink-card .card-black {
     box-sizing: border-box;
 }
 
-.aboutme__card-2 {
-    flex-direction: column-reverse;
-}
+
 
 .imelda-pic{
     display: block;
@@ -458,6 +456,9 @@ input{
     }
     .card-img{
         display: none !important;
+    }
+    .aboutme__card-2 {
+        flex-direction: column-reverse;
     }
 }
 
