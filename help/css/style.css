@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    font-family: 'Work Sans', sans-serif
+}
+
+.container {
+    padding: 0 30px;
+    max-width: 1200px;
+    /* max-width: 900px; */
+    /* if the width is 900px or above, it will take 900px; */
+
+    /* width: 900px; */
+    /* on all screen sizes, it will always take 900px */
+    margin: 0 auto;
+}
+
+.testimonial{
+    background-color: magenta;
+    color: white;
+}
+
+/* Contact page */
+.contact{
+    display:flex;
+}
+
+.contact-title{
+    margin: 3px 110px;
+}
+
+.contact form{
+    display: block;
+}
+
+.aboutme__card input{
+    border-color: grey;
+}
+
+.contact p{
+    color: brown;
+}
+
+.aboutme__card button{
+    background-color: black;
+    color:white;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+}
+
+.contact h2{
+    color: black;
+    width: 5em;
+}
+
+.card-img-top{
+    height:34px;
+}
+
+.aboutme{
+    padding-bottom: 60px;
+   justify-content: space-between; 
+   background-color: #E5E5E5; 
+}
+
+.aboutme__guy{
+    /* display: block; */
+    height:50vh;
+}
+
+
+.aboutme__paragraph{
+    width:50%;
+    display: block;
+    font-size: 18px;
+    padding-top: 42px;
+}
+
+.aboutme__paragraph h3, .aboutme__paragraph p{
+    padding: 7px 0 ;
+    
+}
+
+.aboutme__paragraph h3{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.aboutme__paragraph p{
+    width: 29em;
+    line-height: 25px;
+}
+
+.aboutme__card{
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.imelda-pic{
+    display: block;
+    height:50vh;
+}
+
+.imelda__paragraph{
+    width:40%;
+    display: block;
+    font-size: 18px;
+    padding-top: 42px; 
+    padding:5px;
+}
+
+.imelda__paragraph h3, .imelda__paragraph p{
+    padding: 7px 0 ;
+    line-height: 25px;
+}
+
+.imelda__paragraph h3{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.imelda{
+    padding: 60px 0;
+   justify-content: center;  
+}
+
+.get{
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.get form{
+    padding: 0 0px;
+    /* width: 50%; */
+}
+
+.get h2{
+font-size: 35px;
+}
+
+.form1{
+    display: block;
+    
+}
+
+.get label{
+    display: block;
+}
+
+.get__icon{
+    /* width: 50%; */
+    
+}
+.get__icon img{
+    height: 40vh;
+    float: right;
+    display: block;
+}
+.name, .email{
+    width: 350px;
+    height: 50px;
+    margin: 5px 0;
+}
+
+
+.message{
+    width: 350px;
+    height: 100px;
+    margin: 5px 0;
+    /* height: 420px; */
+}
+
+input{
+    background-color:#F4F4F2;
+    border: 0;
+}
+
+.aboutme__paragraph button{
+    padding-bottom: 0px;
+    background-color:var(--pink);
+    color: black;
+    border:none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.get__icon{
+    width: 50%;
+}
+
+.concerts__text{
+    padding: 10px 0 ;
+}
+
+
+/* Mobile Setting */
+@media (max-width:425.5px){
+    .aboutme__card{
+        justify-content: space-between;
+        margin: 0 auto;
+        display: block;
+        box-sizing: border-box;
+    }
+    
+    .aboutme{
+        padding-bottom: 60px;
+       justify-content: center; 
+       background-color: #E5E5E5;
+       display:block; 
+    }
+
+    .aboutme__guy{
+        height:37vh;
+        object-position: center;
+    }
+
+    .aboutme__paragraph{
+        width:100%;
+        display: block;
+        padding-top: 42px; 
+    }
+
+    .aboutme__paragraph h3, .imelda__paragraph h3 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+
+
+    .aboutme__paragraph p {
+        width: 14em;
+        line-height: 18px;
+    }
+
+    .imelda__paragraph{
+        width:100%;
+        display: block;
+        font-size: 18px;
+        padding-top: 42px; 
+        border-radius: 10px;
+        padding:5px;   
+    }
+
+    .imelda__paragraph p {
+        width: 14em;
+        line-height: 18px;
+    }
+}

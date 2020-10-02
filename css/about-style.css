@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 :root {
     --green: #33CC99;
     --white: #ffffff;
@@ -7,91 +13,204 @@
     --grey: #E6E7E8;
     --font-main: 'Poppins', sans-serif;
 }
-
-
- .card {
-    border: none;
-    border-radius: 0px;
-}
-
-section .pink-card-2 .card-white {
-    display: none;
-}
-
-section .pink-card-2 .card-black {
-    display: block;
-}
-
-.pink-card-2:hover {
-    background-color: var(--pink);
-    color: var(--white);
-}
-
-.pink-card-2:hover .card-white {
-    display: block;
-}
-
-.pink-card-2:hover .card-black {
-    display: none;
-}
-
-.pink-card.active-card {
-    background-color: var(--pink);
-    color: var(--white);
-}
-
-.subtitle {
-    font-size: 20px;
-}
-
-.grid-item-img {
-    width: 60px;
-    margin: auto;
-    /* fill: var(--black); */
-}
-
-.grid {
-    grid-template-columns: 21fr 20fr 21fr;
-}
-
-.item-one {
-    background-color: var(--grey);
-}
-
-.item-one h2 {
-    font-size: 28px;
-    font-weight: 700;
-}
-
-.item-one ul {
-    list-style: none !important; /* Remove default bullets */
-}
-  
-.item-one ul li::before {
-    content: "\2022"; 
-    color: var(--pink); 
-    font-weight: 900;
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
-}
-
-.item-two h2 {
-    font-size: 18px;
-}
-
-.item-two p {
-    font-size: 16px;
-}
-
-.item-tre img {
+.about-us-header{
     width: 100%;
-    height: 100%;
+    padding: 100px;    
 }
+.team-header {
+    background-image: url(..//images/WORX\ WEB\ EXP.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.team-header h5 {
+    font-size: clamp(35px, 5vw, 40px);
+}
+.about-us-content{
+    background: rgb(0, 0, 0);
+    padding: 50px;
+}
+.about-us p, .about-us-2 p, .about-us h5, .about-us-2 h5{
+    color: #fff;
+    font-size: clamp(15px, 2vw, 18px);
+}
+.about-us h5, .about-us-2 h5{
+    font-size: clamp(18px, 5vw, 30px);
+}
+.about-us-2 img{
+    margin-top: 20%;
+}
+::-webkit-scrollbar{
+    width: 13px;
+    background: #000;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, #EC268F);
+    border-radius: 6px;
+}
+.hr-img{
+    width: 400px;
+    height: auto !important;
+}
+.about-us i{
+    font-size: 30px;
+}
+.our-work,.our-work-2{
+    padding-top: 150px !important;
+}
+section .our-community{
+    min-height: 100vh;
+}
+.our-goals .card{
+    background: #EC268F;
+    color: #fff;
+    border-radius: 0px !important;
+}
+@media screen and (max-width:1024px){
+    .our-work,.our-work-2{
+        padding-top: 10px !important;
+    }
+    .our-work-2 .card-text{
+        padding: 0px 0px 0px 30px !important;
+    }
+    .our-work h5{
+        padding: 20px 0px 0px 0px !important;
+        width: 100%;
+    }
+    .our-work p{
+        font-size: 16px !important;
+        line-height:  unset !important;
+    }
+    .our-team h5{
+        font-size: 25px !important;
+        padding: 0px !important;
+    }
+    .our-team p{
+        padding: 0px !important;
+        margin: 0px !important;
+        font-size: 16px !important;
+    }
 
-@media (max-width: 575.98px) {
-
-    .grid {
-        grid-template-columns: 1fr;
+    .about-us-2 img{
+        width: 300px;
+        height: 350px !important;
+    }
+    .about-us p, .about-us-2 p{
+        font-size: 16px;
+    }
+    .hr-img{
+        height: 400px !important;
+    }
+}
+@media screen and (max-width:768px){
+    .about-us-header{
+        padding: 50px;    
+    }
+    .about-us .row,.about-us-2 .row{
+        flex-direction: column !important;
+    }
+    .about-us-2 .row{
+        flex-direction: column-reverse !important;
+    }
+    .about-us-2 .col-md-8{
+        padding-left: 0px !important;
+    }
+    .our-work,.our-work-2{
+        width: 530px !important;
+        padding: 0px !important;
+    }
+    .our-work-2 .card-text{
+        padding: 0px !important;
+    }
+    .about-us .col-md-7{
+        padding: 0px !important;
+    }
+    .hr-img{
+        height: 350px !important;
+        width: 250px !important;
+        margin-top: 30px !important;
+    }
+    .goaler{
+        height: 240px !important;
+    }
+    .goaler p{
+        line-height: unset !important;
+    }
+    .miss{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .about-us img{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .about-us-2 img{
+        width: 400px !important;
+        height:  auto !important;
+    }
+}
+@media screen and (max-width: 425px){
+    .about-us-content{
+        padding: 30px;
+    }
+    .about-us-header{
+        padding: 20px;    
+    }
+    .our-work,.our-work-2{
+        width: 300px !important;
+        padding: 0px !important;
+    }
+    .about-us img,.about-us-2 img{
+        width: 300px !important;
+    }
+    .elema .row{
+        display: block;
+    }
+    .our-goals .col-md-5{
+        margin-bottom: 30px;
+    }
+    .goals{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .goaler{
+        height: 100% !important;
+    }
+    .caro{
+        margin-bottom: 30px !important;
+    }
+    
+}
+@media (max-width:375px){
+    .about-us-header{
+        padding: 0px;    
+    }
+    .about-us-content{
+        padding: 20px;
+    }
+    .about-us p, .about-us-2 p{
+        font-size: 14px !important;
+    }
+}
+@media (max-width: 320px){
+    .about-us-content{
+        padding: 20px 2px 2px 4px;
+    }
+    .our-work,.our-work-2{
+        width: 280px !important;
+        padding: 0px !important;
+    }
+    .about-us img,.about-us-2 img{
+        width: 280px !important;
+    }
+    .our-community .our-goal-container{
+        padding-left: 0px !important;
     }
 }
