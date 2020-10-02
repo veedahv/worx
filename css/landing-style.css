@@ -17,7 +17,6 @@
 }
 
 .landing-bg-two {
-    /* background-color: var(--white); */
     background-image: url('../images/landing\ bg\ white.jpg') !important;
     background-size: cover;
     color: var(--black);
@@ -137,14 +136,14 @@
     }
 }
 
-/* section .pink-card {
+section .pink-card {
     border: none;
     border-radius: 0px;
     border-bottom: 4px solid var(--pink) !important;
     height: 100%;
-} */
+}
 
-/* section .pink-card .card-white {
+section .pink-card .card-white {
     display: none;
 }
 
@@ -168,7 +167,7 @@ section .pink-card .card-black {
 .pink-card.active-card {
     background-color: var(--pink);
     color: var(--white);
-} */
+}
 
 .page-btn {
     background-color: var(--black);
@@ -225,7 +224,7 @@ section .pink-card .card-black {
     }
     .image-flow {
         padding: 0px !important;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     /* team-section */
