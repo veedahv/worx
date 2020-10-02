@@ -154,9 +154,6 @@ section .pink-card {
     border-bottom: 4px solid var(--pink) !important;
     height: 100%;
 }
-.card-img{
-    width: 80px;
-}
 
 section .pink-card .card-white {
     display: none;
@@ -287,9 +284,14 @@ section .pink-card .card-black {
     box-sizing: border-box;
 }
 
+.aboutme__card-2 {
+    flex-direction: column-reverse;
+}
+
 .imelda-pic{
     display: block;
-    height:50vh;
+    
+    /* height:45vh; */
 }
 
 .imelda__paragraph{
@@ -453,6 +455,9 @@ input{
     .image-flow {
         padding: 0px !important;
         flex-direction: column;
+    }
+    .card-img{
+        display: none !important;
     }
 }
 
