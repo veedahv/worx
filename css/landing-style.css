@@ -489,6 +489,9 @@ input{
         padding: 0px !important;
         flex-direction: row;
     }
+    .imelda-pic {
+        max-width: 550px;
+    }
 
     /* team-section */
     
