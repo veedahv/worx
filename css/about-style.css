@@ -46,15 +46,7 @@
 .about-us-2 img{
     margin-top: 20%;
 }
-::-webkit-scrollbar{
-    width: 13px;
-    background: #000;
-    
-}
-::-webkit-scrollbar-thumb{
-    background: linear-gradient(transparent, #EC268F);
-    border-radius: 6px;
-}
+
 .hr-img{
     width: 400px;
     height: auto !important;

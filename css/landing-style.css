@@ -253,7 +253,7 @@ section .pink-card .card-black {
     /* display: block; */
     height:50vh;
 }
-
+::-wbkit
 
 .aboutme__paragraph{
     width:50%;
